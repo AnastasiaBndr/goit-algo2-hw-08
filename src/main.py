@@ -6,6 +6,8 @@ from task1.LRUCache.LRUCache import LRUCache
 from task1.functions.functions_cache import update_with_cache,range_sum_with_cache
 from task1.functions.functions_no_cache import update_no_cache,range_sum_no_cache
 
+from task2.test_rate_limiter import test_rate_limiter
+
 def run_test():
     N = 100_000
     Q = 50_000
@@ -45,3 +47,4 @@ def run_test():
 
 if __name__ == "__main__":
     run_test()
+    test_rate_limiter()
